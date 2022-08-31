@@ -43,6 +43,8 @@ list.addNode(1);
 List.addNode(2);    
 List.addNode(3); 
 List.display();   
+}
+}
                                                                             
                                                                                         
                                                                                      
