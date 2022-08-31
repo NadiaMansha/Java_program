@@ -19,7 +19,7 @@ class LinkedList{
  }
  public void addNode(int data){
     Node n= new Node(data);
-    if(head=null)
+    if(head==null)
     {
      head=n;
      tail=n;
@@ -35,7 +35,8 @@ public void display(){
     {
         system.out.println(t1.data + "");
         t1=t1.next;
-    }
+    } 
+}
 public static void main(String[] args) {    
 LinkedList List = new LinkedList();    
                                                            
